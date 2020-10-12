@@ -1,3 +1,5 @@
+# Runtime -
+# Space complexity -
 def is_first_come_first_served(take_out_orders, dine_in_orders, served_orders):
     # how do we assign values to each order?
 
@@ -12,14 +14,32 @@ def is_first_come_first_served(take_out_orders, dine_in_orders, served_orders):
     # once we would get to 7 we would return False
     # no need to continue
 
+    i = 0
+    j = 0
+    k = 0
 
-    print("False")
+    while k < len(served_orders):
+
+        print(take_out_orders[i])
+        print(dine_in_orders[j])
+        print(served_orders[k])
+        i += 1
+        j += 1
+        k += 1
+
+    if True:
+        print("True")
+    else:
+        print("False")
+
     return True
 
 
 # Should be true
+print("This next line should be True")
 is_first_come_first_served([1, 4, 5], [2, 3, 6], [1, 2, 3, 4, 5, 6])
 # Should be false
+print("This next line should be False")
 is_first_come_first_served([1, 5], [2, 3, 6], [1, 2, 6, 3, 5])
 
 
