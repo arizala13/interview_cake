@@ -1,6 +1,6 @@
 # --- general notes ---
-# Question :
-#
+# Question : Determine if a permutation of a string is a
+# palindrome -- that means it can be moved around
 #
 # Runtime:
 # Space complexity
@@ -25,12 +25,7 @@ def palindrome_permutation(given_string):
         else:
             single_chars += 1
 
-    if single_chars < 2:
-        print("True")
-        return False
-    else:
-        print("False")
-        return True
+    return single_chars < 2
 
 
 print("Next will be True")
