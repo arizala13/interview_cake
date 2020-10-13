@@ -1,13 +1,11 @@
 def return_true_or(s):
     count_chars = {}
 
-    count = 0
-
     for char in s:
         if char in count_chars:
             count_chars[char] += 1
         else:
-            count_chars[char] = count + 1
+            count_chars[char] = 1
 
     print(count_chars)
 

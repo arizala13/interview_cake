@@ -1,7 +1,9 @@
 # --- general notes ---
 # Question : Determine if a permutation of a string is a
 # palindrome -- that means it can be moved around
-#
+# The code below could be used to see if we changed n
+# number of chars to create a palindrome, we would just have
+# our return statement 
 # Runtime:
 # Space complexity
 
