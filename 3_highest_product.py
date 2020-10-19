@@ -13,7 +13,6 @@ def highest_product_of_3(list_of_ints):
 
 highest_product_of_3([1, 2, 3, -40])
 
-
 # way to approach this is greedy algo
 # take product of two highest values multiple
 # same for lowest
