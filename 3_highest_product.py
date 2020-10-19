@@ -10,6 +10,7 @@ def highest_product_of_3(list_of_ints):
     # lowest =
     # high_product_of_2 =
     # low_product_of_2 =
+    return highest_product_of_3
 
 highest_product_of_3([1, 2, 3, -40])
 
